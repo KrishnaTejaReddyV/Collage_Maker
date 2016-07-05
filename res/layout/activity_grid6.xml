@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp">
+    
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/f"
+        android:focusable="false"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:scaleType="fitXY" />
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="196dp"
+        android:layout_height="196dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="17dp"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="97dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="214dp"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="95dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="223dp"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:scaleType="fitXY" />
+    
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="119dp"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="95dp"
+        android:layout_height="99dp" 
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="222dp"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:scaleType="fitXY"/>
+    
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="95dp"
+        android:layout_height="99dp" 
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="222dp"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save to Gallery!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="345dp" />
+
+</RelativeLayout>
